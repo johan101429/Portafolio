@@ -37,7 +37,7 @@ body {
 
 .menu {
     display: flex;
-    width: 50%;
+    width: 40%;
     justify-content: space-around;
 }
 
@@ -67,7 +67,7 @@ body {
     border-radius: 30px;
     border: 2px solid #2a2929;
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .menu a:hover {
@@ -436,6 +436,73 @@ body {
     font-size: 2.4rem;
     color: var(--second-bg-color);
 }
+@media screen and (min-width: 769px) and (max-width: 920px) {
+    body {
+        font-size: 14px;
+    }
+
+    .navbar {
+        padding: 1rem;
+    }
+    /* .wrapper{
+        padding: 2px 8px;
+    } */
+    .menu a {
+        padding: 2px 19px;
+    }
+
+    .menu {
+        width: 30%;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .main img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container-img {
+        height: 15rem; /* Cambiado de 20rem a 15rem */
+    }
+
+    .perfil {
+        width: 100px; /* Cambiado de 200px a 150px */
+        height: 100px; /* Cambiado de 200px a 150px */
+    }
+
+    .container-card {
+        max-width: 150px; /* Cambiado de 250px a 200px */
+    }
+
+    .card {
+        width: 10rem; /* Cambiado de 20rem a 15rem */
+        height: 10rem; /* Cambiado de 20rem a 15rem */
+    }
+
+    .divider {
+        width: 15rem; /* Cambiado de 20rem a 15rem */
+    }
+    
+    .about-info h2 {
+        font-size: 2em; /* Cambiado de 3em a 2em */
+    }
+
+    .img_about{
+        width: 20rem;
+        height: 20rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        border-radius: 2rem;
+    }
+    .service{
+
+        width: auto;
 
 
+    }
+    
+}
 
